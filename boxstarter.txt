@@ -1,5 +1,7 @@
-Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Update-ExecutionPolicy
+choco feature enable -n=allowGlobalConfirmation
 Enable-RemoteDesktop
+Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 cinst dropbox
 cinst gow
@@ -20,7 +22,6 @@ cinst 1password
 cinst gpg4win 
 cinst inkscape
 cinst paint.net
-cinst krita
 cinst firefox
 cinst sysinternals
 cinst skype
@@ -44,6 +45,5 @@ cinst visualstudio2015community
 cinst visualstudiocode
 cinst androidstudio
 
-cinst Microsoft-Hyper-V-All -source windowsFeatures
-cinst IIS-WebServerRole -source windowsFeatures
-
+cinst -y Microsoft-Hyper-V-All -source windowsFeatures
+cinst -y IIS-WebServerRole -source windowsFeatures
