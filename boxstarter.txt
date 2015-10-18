@@ -2,6 +2,7 @@ Update-ExecutionPolicy
 choco feature enable -n=allowGlobalConfirmation
 Enable-RemoteDesktop
 Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }
 
 cinst dropbox
 cinst gow
