@@ -1,0 +1,21 @@
+Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles
+-showFileExtensions
+Enable-RemoteDesktop
+
+cinst 7zip
+cinst curl
+cinst fiddler4
+cinst poshgit
+cinst git-credential-winstor
+cinst greenshot
+cinst notepadplusplus
+cinst teamviewer
+cinst vim
+cinst vlc
+cinst Wget
+cinst winmerge
+cinst dotpeek
+
+cinst Microsoft-Hyper-V-All -source windowsFeatures
+cinst IIS-WebServerRole -source windowsFeatures
+
