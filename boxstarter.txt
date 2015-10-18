@@ -2,6 +2,9 @@ Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles
 -showFileExtensions
 Enable-RemoteDesktop
 
+cinst dropbox
+cinst python
+cinst nodejs.install
 cinst 7zip
 cinst curl
 cinst fiddler4
@@ -15,6 +18,11 @@ cinst vlc
 cinst Wget
 cinst winmerge
 cinst dotpeek
+cinst 1password
+cinst gpg4win 
+cinst inkscape
+cinst paint.net
+cinst krita
 
 cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst IIS-WebServerRole -source windowsFeatures
