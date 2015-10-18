@@ -1,5 +1,4 @@
-Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles
--showFileExtensions
+Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Enable-RemoteDesktop
 
 cinst dropbox
