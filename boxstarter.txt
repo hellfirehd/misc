@@ -38,7 +38,6 @@ cinst openssl.light
 cinst handbrake.install
 cinst rabbitmq
 cinst openvpn
-cinst vmwareplayer
 cinst qbittorrent
 cinst mssqlserver2014express
 cinst mssqlservermanagementstudio2014express
