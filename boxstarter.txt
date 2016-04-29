@@ -14,7 +14,7 @@ cinst poshgit
 cinst git-credential-winstor
 cinst tortoisesvn
 cinst greenshot
-cinst notepadplusplus
+cinst sublimetext3
 cinst teamviewer
 cinst vlc
 cinst winmerge
@@ -43,7 +43,6 @@ cinst mssqlserver2014express
 cinst mssqlservermanagementstudio2014express
 cinst visualstudio2015community
 cinst visualstudiocode
-cinst androidstudio
+cinst pidgin
 
-cinst -y Microsoft-Hyper-V-All -source windowsFeatures
 cinst -y IIS-WebServerRole -source windowsFeatures
