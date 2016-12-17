@@ -49,4 +49,5 @@ cinst yeoman
 cinst beyondcompare
 cinst beyondcompare-integration
 
+cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst -y IIS-WebServerRole -source windowsFeatures
