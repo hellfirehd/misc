@@ -16,20 +16,15 @@ cinst cpu-z
 cinst erlang
 cinst everything
 cinst git.install
-cinst git-credential-manager-for-windows
 cinst gitkraken
-cinst gow
 cinst gpg4win
 cinst greenshot
 cinst handbrake.install
-cinst linqpad
 cinst markdown-edit
 cinst nmap
 cinst nodejs.install
 cinst nssm
 cinst nuget.commandline
-cinst openssl.light
-cinst openvpn
 cinst paint.net
 cinst pidgin
 cinst poshgit
@@ -44,7 +39,6 @@ cinst webpicmd
 cinst wget
 cinst windirstat
 cinst winscp
-cinst yeoman
 
 cinst beyondcompare
 cinst beyondcompare-integration
