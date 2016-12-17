@@ -4,33 +4,22 @@ Enable-RemoteDesktop
 Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }
 
-cinst dropbox
-cinst gow
-cinst python
-cinst nodejs.install
+cinst git
+cinst nodejs
 cinst 7zip
-cinst fiddler4
 cinst poshgit
-cinst git-credential-winstor
-cinst tortoisesvn
-cinst greenshot
-cinst sublimetext3
+cinst git-credential-manager-for-windows
+cinst visualstudio2015community
+cinst visualstudiocode
+cinst pidgin
 cinst teamviewer
 cinst vlc
-cinst winmerge
-cinst dotpeek
-cinst 1password
-cinst gpg4win 
-cinst inkscape
 cinst paint.net
-cinst firefox
 cinst sysinternals
-cinst skype
 cinst putty
-cinst nugetpackagemanager
+cinst nuget.commandline
 cinst winscp
 cinst windirstat
-cinst optipng
 cinst cpu-z
 cinst erlang
 cinst yeoman
@@ -39,10 +28,6 @@ cinst handbrake.install
 cinst rabbitmq
 cinst openvpn
 cinst qbittorrent
-cinst mssqlserver2014express
-cinst mssqlservermanagementstudio2014express
-cinst visualstudio2015community
-cinst visualstudiocode
-cinst pidgin
+cinst smtp4dev
 
 cinst -y IIS-WebServerRole -source windowsFeatures
