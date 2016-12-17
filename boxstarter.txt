@@ -3,31 +3,50 @@ choco feature enable -n=allowGlobalConfirmation
 Enable-RemoteDesktop
 Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }
+Disable-InternetExplorerESC
+Disable-GameBarTips
 
-cinst git
-cinst nodejs
-cinst 7zip
-cinst poshgit
-cinst git-credential-manager-for-windows
 cinst visualstudio2015community
 cinst visualstudiocode
-cinst pidgin
-cinst teamviewer
-cinst vlc
-cinst paint.net
-cinst sysinternals
-cinst putty
-cinst nuget.commandline
-cinst winscp
-cinst windirstat
+
+cinst 7zip
+cinst ccleaner
+cinst cmake
 cinst cpu-z
 cinst erlang
-cinst yeoman
-cinst openssl.light
+cinst everything
+cinst git.install
+cinst git-credential-manager-for-windows
+cinst gitkraken
+cinst gow
+cinst gpg4win
+cinst greenshot
 cinst handbrake.install
-cinst rabbitmq
+cinst linqpad
+cinst markdown-edit
+cinst nmap
+cinst nodejs.install
+cinst nssm
+cinst nuget.commandline
+cinst openssl.light
 cinst openvpn
+cinst paint.net
+cinst pidgin
+cinst poshgit
+cinst putty
 cinst qbittorrent
+cinst rabbitmq
 cinst smtp4dev
+cinst sysinternals
+cinst teamviewer
+cinst vlc
+cinst webpicmd
+cinst wget
+cinst windirstat
+cinst winscp
+cinst yeoman
+
+cinst beyondcompare
+cinst beyondcompare-integration
 
 cinst -y IIS-WebServerRole -source windowsFeatures
