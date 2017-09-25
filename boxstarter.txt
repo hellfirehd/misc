@@ -10,35 +10,20 @@ cinst visualstudio2015community
 cinst visualstudiocode
 
 cinst 7zip
-cinst ccleaner
-cinst cmake
-cinst cpu-z
-cinst erlang
-cinst everything
 cinst git.install
 cinst gitkraken
 cinst gpg4win
-cinst greenshot
-cinst handbrake.install
+cinst sharex
 cinst markdown-edit
 cinst nmap
 cinst nodejs.install
-cinst nssm
 cinst nuget.commandline
 cinst paint.net
 cinst pidgin
-cinst poshgit
-cinst putty
 cinst qbittorrent
 cinst rabbitmq
 cinst smtp4dev
-cinst sysinternals
-cinst teamviewer
-cinst vlc
-cinst webpicmd
 cinst wget
-cinst windirstat
-cinst winscp
 
 cinst beyondcompare
 cinst beyondcompare-integration
