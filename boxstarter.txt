@@ -6,9 +6,6 @@ Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters 
 Disable-InternetExplorerESC
 Disable-GameBarTips
 
-cinst visualstudio2015community
-cinst visualstudiocode
-
 cinst 7zip
 cinst git.install
 cinst gitkraken
@@ -24,6 +21,7 @@ cinst qbittorrent
 cinst rabbitmq
 cinst smtp4dev
 cinst wget
+cinst visualstudiocode
 
 cinst beyondcompare
 cinst beyondcompare-integration
