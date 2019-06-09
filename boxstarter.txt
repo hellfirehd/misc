@@ -6,25 +6,29 @@ Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters 
 Disable-InternetExplorerESC
 Disable-GameBarTips
 
-cinst 7zip
+cinst Microsoft-Hyper-V-All -source windowsFeatures
+cinst -y IIS-WebServerRole -source windowsFeatures
+
+cinst 1password
+cinst calibre
+cinst dbeaver
+cinst everything
+cinst firefox
 cinst git.install
 cinst gitkraken
-cinst gpg4win
-cinst sharex
+cinst googlechrome
 cinst markdown-edit
-cinst nmap
+cinst nextcloud-client
 cinst nodejs.install
 cinst nuget.commandline
+cinst openvpn
 cinst paint.net
-cinst pidgin
 cinst qbittorrent
-cinst rabbitmq
+cinst sharex
 cinst smtp4dev
-cinst wget
 cinst visualstudiocode
+cinst vlc
+cinst winrar
 
 cinst beyondcompare
 cinst beyondcompare-integration
-
-cinst Microsoft-Hyper-V-All -source windowsFeatures
-cinst -y IIS-WebServerRole -source windowsFeatures
