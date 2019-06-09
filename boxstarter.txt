@@ -10,22 +10,30 @@ cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst -y IIS-WebServerRole -source windowsFeatures
 
 cinst 1password
+cinst adobereader
 cinst calibre
 cinst dbeaver
+cinst dotnetcore-sdk 
 cinst everything
 cinst firefox
 cinst git.install
 cinst gitkraken
 cinst googlechrome
+cinst insomnia-rest-api-client 
+cinst jdk8
 cinst markdown-edit
+cinst netfx-4.7.2-devpack
 cinst nextcloud-client
 cinst nodejs.install
 cinst nuget.commandline
+cinst openssh
 cinst openvpn
 cinst paint.net
+cinst powershell-core
 cinst qbittorrent
 cinst sharex
 cinst smtp4dev
+cinst sql-server-management-studio 
 cinst visualstudiocode
 cinst vlc
 cinst winrar
