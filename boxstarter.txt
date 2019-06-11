@@ -9,8 +9,9 @@ Disable-GameBarTips
 cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst -y IIS-WebServerRole -source windowsFeatures
 
-cinst 1password
 cinst adobereader
+cinst beyondcompare
+cinst beyondcompare-integration
 cinst calibre
 cinst dbeaver
 cinst dotnetcore-sdk 
@@ -37,6 +38,3 @@ cinst sql-server-management-studio
 cinst visualstudiocode
 cinst vlc
 cinst winrar
-
-cinst beyondcompare
-cinst beyondcompare-integration
