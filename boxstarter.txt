@@ -1,7 +1,8 @@
 Update-ExecutionPolicy
 choco feature enable -n=allowGlobalConfirmation
 Enable-RemoteDesktop
-Set-ExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Set-TaskbarOptions -Size Small
+Set-WindowsExplorerOptions -showHiddneFilesFoldersDrives -showProtectedOSFiles -showFileExtensions -EnableExpandToOpenFolder
 Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }
 Disable-InternetExplorerESC
 Disable-GameBarTips
@@ -9,7 +10,6 @@ Disable-GameBarTips
 cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst -y IIS-WebServerRole -source windowsFeatures
 
-cinst adobereader
 cinst beyondcompare
 cinst beyondcompare-integration
 cinst calibre
@@ -19,9 +19,9 @@ cinst everything
 cinst firefox
 cinst git.install
 cinst gitkraken
+cinst golang
 cinst googlechrome
 cinst insomnia-rest-api-client 
-cinst jdk8
 cinst markdown-edit
 cinst netfx-4.7.2-devpack
 cinst nextcloud-client
@@ -31,6 +31,7 @@ cinst openssh
 cinst openvpn
 cinst paint.net
 cinst powershell-core
+cinst python3
 cinst qbittorrent
 cinst sharex
 cinst smtp4dev
