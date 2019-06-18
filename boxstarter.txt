@@ -39,3 +39,5 @@ cinst sql-server-management-studio
 cinst visualstudiocode
 cinst vlc
 cinst winrar
+
+dotnet tool install -g nbgv
