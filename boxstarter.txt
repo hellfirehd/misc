@@ -38,6 +38,7 @@ cinst smtp4dev
 cinst sql-server-management-studio 
 cinst visualstudiocode
 cinst vlc
+cinst vmwarevsphereclient
 cinst winrar
 
 dotnet tool install -g nbgv
