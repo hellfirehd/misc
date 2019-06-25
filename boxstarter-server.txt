@@ -1,0 +1,12 @@
+Update-ExecutionPolicy
+choco feature enable -n=allowGlobalConfirmation
+Enable-RemoteDesktop
+Set-TaskbarOptions -Size Small
+Set-WindowsExplorerOptions -EnableExpandToOpenFolder
+Disable-InternetExplorerESC
+
+cinst firefox
+cinst googlechrome
+cinst openssh
+cinst powershell-core
+cinst winrar
