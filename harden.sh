@@ -8,7 +8,7 @@ fi
 
 yum makecache fast
 yum update -y
-yum install -y epel-release yum-utils bind-utils net-tools wget vim nano screen chrony unzip
+yum install -y epel-release yum-utils bind-utils net-tools wget vim nano screen chrony unzip open-vm-tools
 yum clean all
 
 systemctl stop NetworkManager.service
