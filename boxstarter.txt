@@ -25,6 +25,7 @@ cinst insomnia-rest-api-client
 cinst markdown-edit
 cinst netfx-4.7.2-devpack
 cinst nextcloud-client
+cinst nmap
 cinst nodejs.install
 cinst nuget.commandline
 cinst openssh
