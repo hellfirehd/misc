@@ -19,6 +19,7 @@ cinst everything
 cinst firefox
 cinst git.install
 cinst gitkraken
+cinst GitVersion.Portable
 cinst golang
 cinst googlechrome
 cinst insomnia-rest-api-client 
