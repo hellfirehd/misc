@@ -1,0 +1,14 @@
+#cloud-config
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDw30/LCkj1kuqsmLy2KIUSWlLqG0tO80xIwCA1uC4vho/ezl8dH72Dp+OHBnhmzWJ2uxN51vuc2DMfCeTOCuyi8jzkMNmnZPE8kJpQKnuOWGkYDhdmIl/ATpb8kUhzFjP+nqC9VayB3sJXldC18Wvu4ltiUQ1MsDIJeb/SM3ZGF/EnH9x0LdfC3CAg37FD30bWInN9qDo9dhEZSQYyC3dH5XhazvUXkvezi/IRbpeG0z8SD7i33zuqV1f9rqXnI4iKKcTMf8Idn7uzdpp6CnSmnM1/HrzQTa7Fo/BDCvRrnmhBZfVbXA5xbEUsIRDpAejEa0K6SWqnNngUcBEQdABsZIj0BMi9QAS6Ca2bKI6MH3PbhgywOrx3Tk3KPQtpD1d7U8yvJakOFGM4DG4314Y8SXYmx7f9jfwSihAONw3ZYG5QefOQQoaIVphUomtikmC3UWH54L/OvaBVmd/gUpfy/WUUGzOwlroO3/FQ8mcv4fHcRot4OoURrHbSKHlmZEFAgyXZGEVF1k1nO3CDoYxfgWdopp9HCZbnrAAQh5fzIPiAdPNM2rR2Bajuv8XhRAHN44UkJetdUvZPm+dx7eMtLCtsH8XbqVIKiOb+o9NgTDeVax0lO/xaA3tSTrqCBnFfVUDzeWZxkvOC9/203hisVoAZ5tqbJQESKGn9ax2O/Q== d@dkw.io
+
+rancher:
+  docker:
+    tls: true
+  network:
+    dns:
+      nameservers:
+      - 10.18.84.1
+      - 1.1.1.1
+      - 1.0.0.1
+      
