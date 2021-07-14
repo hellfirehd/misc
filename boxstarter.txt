@@ -19,27 +19,17 @@ cinst firefox
 cinst git.install
 cinst gitkraken
 cinst GitVersion.Portable
-cinst golang
 cinst googlechrome
 cinst insomnia-rest-api-client 
-cinst markdown-edit
-cinst netfx-4.7.2-devpack
-cinst nextcloud-client
-cinst nmap
 cinst nodejs.install
 cinst nuget.commandline
 cinst openssh
 cinst openvpn
 cinst paint.net
-cinst powershell-core
-cinst python3
 cinst qbittorrent
 cinst sharex
 cinst smtp4dev
 cinst sql-server-management-studio 
 cinst visualstudiocode
-cinst vlc
-cinst vmwarevsphereclient
 cinst winrar
 
-dotnet tool install -g nbgv
